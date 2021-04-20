@@ -1,7 +1,7 @@
 pipeline {
     environment {
         DOMAIN='apps.ocp4.example.com'
-        PRJ="hello-${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
+        PRJ="nodeapp-${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
         APP='nodeapp'
     }
     agent {
